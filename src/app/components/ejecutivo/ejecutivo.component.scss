@@ -1,8 +1,17 @@
 mat-grid-tile {
   background: mix(lightblue, white, 15%);
+  border-radius: 16px !important;
+}
+mat-grid-list{
+  border-radius: 8px !important;
 }
 .ejecutivo-ventas-chart{
   height: 100%;
   width: 100%;
+  margin: 5%;
+}
+.tiket-ventas-chart{
+  height: 100%;
+  width: 50%;
   margin: 5%;
 }
