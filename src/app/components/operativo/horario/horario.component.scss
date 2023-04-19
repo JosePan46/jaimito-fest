@@ -1,0 +1,17 @@
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.actuaciones{
+  flex-grow: 1;
+  margin-right: 200px;
+}
+.horario{
+  margin-left: 100px;
+}
+
+.titulo{
+  font-weight: bold;
+}

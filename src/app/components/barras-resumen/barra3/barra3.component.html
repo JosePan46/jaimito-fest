@@ -1,0 +1,29 @@
+<h1> Barra Este</h1>
+<mat-accordion>
+  <mat-expansion-panel >
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Estadísticas generales
+      </mat-panel-title>
+      <mat-panel-description>
+        Descripción del servicio
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>Ventas totales del día: 0€</p>
+    <p></p>
+  </mat-expansion-panel>
+  <mat-expansion-panel (opened)="panelOpenState = true"
+                       (closed)="panelOpenState = false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Status
+      </mat-panel-title>
+      <mat-panel-description>
+        Status del servicio
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>Barra Este no disponible <mat-icon class="cancel">cancel</mat-icon> </p>
+
+  </mat-expansion-panel>
+</mat-accordion>
+

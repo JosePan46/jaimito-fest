@@ -1,0 +1,12 @@
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+.lines{
+  flex-grow: 1;
+  margin-right: 100px;
+}
+
+.numbers{
+  margin-left: 100px;
+}
